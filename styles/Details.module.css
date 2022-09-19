@@ -1,0 +1,246 @@
+.imagesContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+}
+
+.mainImgContainer {
+    width: 50%;
+    margin-right: 5px;
+}
+
+.mainImgContainer img {
+    border-radius: 15px 0 0 15px;
+}
+
+.secImgContainer {
+    width: calc(50% - 5px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.secImgContainer img{
+    margin: 5px;
+    width: calc(50% - 10px);
+}
+
+.secImgContainer img:nth-of-type(2) {
+    border-top-right-radius: 15px;
+}
+
+.secImgContainer img:nth-of-type(4) {
+    border-bottom-right-radius: 15px;
+}
+
+.header {
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.header h1 {
+    width: 100%;
+    margin-bottom: 10px !important;
+}
+
+.leftDetails, .rightDetails {
+    display: flex;
+}
+
+.leftDetails div, .rightDetails div {
+    margin-right: 15px;
+}
+
+.rightDetails div {
+    margin-right: 15px !important;
+}
+
+.carousel {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .carousel {
+        display: block;
+        margin: 20px 0;
+        margin-top: 5px;
+    }
+    
+    .carousel div {
+        height: 300px;
+    }
+    .css-1f8sh1y div{
+        height: 600px !important;
+
+    }
+    .imagesContainer {
+        display: none;
+    }
+    .mainImgContainer img {
+        border-radius: none;
+    }
+    .header {
+        padding: 0 10px;
+        margin-top: 0;
+    }
+    .leftDetails {
+        flex-direction: column;
+    }
+    .leftDetails div {
+        margin: 5px 0;
+    }
+
+    .rightDetails {
+        display: none;
+    }
+}
+
+
+
+.offersAndRangePicker {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offers>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offers h2 {
+    width: 100%;
+    color: #448EB7;
+    margin-bottom: 10px;
+}
+
+.offers > div > div {
+    margin: 15px 0;
+}
+
+.featureContainer {
+    width: 50%;
+}
+
+.offers div div span {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 425px) {
+    .offers > div:first-of-type {
+        width: 100%;
+        border-bottom: 1px solid #F6CA93;
+    }
+}
+
+.buyDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    height: 320px;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.buyDetailsHeader, .buyDetailsTime, .buyDetailsPricingCal div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: #448EB7;
+}
+
+.buyDetailsPricingCal div div {
+    width: auto;
+    margin: 5px 0;
+    color: #999;
+    text-decoration: underline;
+}
+
+.buyDetailsPricingCal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buyDetailsPricingCal > div:last-of-type {
+    border-top: 1px solid #F6CA93;
+    margin-top: 10px;
+}
+
+.buyDetailsPricingCal > div:last-of-type div {
+    text-decoration:none !important;
+}
+
+.buyDetailsTime {
+    border: 1px solid #F6CA93;
+    border-radius: 15px;
+    padding: 0 5px;
+}
+
+.buyDetailsTime div {
+    width: 50%;
+    padding: 10px;
+
+}
+
+.buyDetailsTime div:nth-of-type(2) {
+    border-left: #F6CA93 1px solid;
+    border-radius: 15px;
+}
+
+.bookNow {
+    background-color: #448EB7;
+    color: #F6CA93;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+.bookNow:hover {
+    cursor: pointer;
+}
+
+.calendarContainer {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .offersAndRangePicker {
+        flex-wrap: wrap;
+    }
+    
+    .featureContainer {
+        width: 100%;
+    }
+    .header h1 {
+        margin-top: 20px;
+    }
+    .buyDetails {
+        margin-right: 0;
+        margin-bottom: 30px;
+        width: 100% !important;
+        height: 350px;
+    }
+    .offersAndRangePicker {
+        margin: 10px;
+    }
+}

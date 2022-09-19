@@ -1,0 +1,14 @@
+.wishListContainer {
+    padding: 30px;
+}
+
+.wishListContainer h2 {
+    color: #458DB7;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .wishListContainer {
+        padding: 10px;
+    }
+}

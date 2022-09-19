@@ -1,0 +1,315 @@
+{
+  "srcs": [
+    {
+    "id": 1, 
+    "images": ["wooden-house.webp", 
+    "wooden-house-1.webp",
+    "wooden-house-2.webp",
+    "wooden-house-3.webp",
+    "wooden-house-4.webp"],
+    "name": "Hawaii caravan",
+    "price": 199,
+    "type": "Ancient House",
+    "beds": 1,
+    "bedRooms": 1,
+    "location": "Canterbury, Kent, United Kingdom",
+    "stars": 5.0,
+    "favourite": false,
+    "features": [
+      {
+        "feature": "Wifi",
+        "icon": "wifi.png"
+      },
+      {
+        "feature": "Kitchen",
+        "icon": "kitchen.png"
+      },
+      {
+        "feature": "Free parking on premises",
+        "icon": "park.png"
+      }, 
+      
+      {
+        "feature": "Children’s books and toys",
+        "icon": "toys.png"
+      },
+      {
+        "feature": "Pack ’n play/Travel crib",
+        "icon": "crib.png"
+      },
+      {
+        "feature": "Private patio or balcony",
+        "icon": "balcony.png"
+      }
+    ]
+  }
+    ,
+    {"id": 2, 
+    "images": ["rural-house.webp", 
+    "rural-house-1.webp", 
+    "rural-house-2.webp",
+    "rural-house-3.webp",
+    "rural-house-4.webp"],
+    "name": "Nature Room",
+    "price": 255,
+    "type": "Ancient House",
+    "beds": 2,
+    "bedRooms": 2,
+    "location": "Detached villa near Haarlem, in the forest!!",
+    "stars": 4.5,
+    "favourite": false,
+    "features": [
+      {
+        "feature": "Wifi",
+        "icon": "wifi.png"
+      },
+      {
+        "feature": "Kitchen",
+        "icon": "kitchen.png"
+      },
+      {
+        "feature": "TV",
+        "icon": "tv.png"
+      }, 
+      {
+        "feature": "Security cameras",
+        "icon": "security-camera.png"
+      },
+      {
+        "feature": "Pack ’n play/Travel crib",
+        "icon": "crib.png"
+      },
+      {
+        "feature": "Private patio or balcony",
+        "icon": "balcony.png"
+      }
+    ]
+  }
+    ,
+    {"id":3, 
+    "images": ["beach-house-3.webp", 
+    "beach-house-1.webp", 
+    "beach-house-2.webp",
+    "beach-house-3.webp",
+    "beach-house.webp"
+    ],
+    "name": "Private floor in unique home beach centre",
+    "price": 165,
+    "type": "Hotels",
+    "beds": 3,
+    "bedRooms": 3,
+    "location": "Lith, Noord-Brabant, Netherlands",
+    "stars": 4.2,
+    "favourite": false,
+    "features":[
+      {
+        "feature": "Private patio or balcony",
+        "icon": "balcony.png"
+      },
+      {
+        "feature": "Pets Allowed",
+        "icon": "pawprint.png"
+      },
+      {
+        "feature": "Wifi",
+        "icon": "wifi.png"
+      },
+      {
+        "feature": "Kitchen",
+        "icon": "kitchen.png"
+      },
+      {
+        "feature": "TV",
+        "icon": "tv.png"
+      }, 
+      {
+        "feature": "Washer",
+        "icon": "washer.png"
+      }
+    ]
+  },
+    {
+      "id":4, 
+    "images": ["hotel-img.webp", 
+    "hotel-img-4.webp", 
+    "hotel-img-2.webp",
+    "hotel-img-3.webp",
+    "hotel-img-1.webp"
+    ],
+    "name": "House Of Selfies",
+    "price": 225,
+    "type": "Modern House",
+    "beds": 4,
+    "bedRooms": 4,
+    "location": "Amsterdam, Netherlands",
+    "stars": 5.0,
+    "favourite": false,
+    "features":[
+      {
+        "feature": "Children’s books and toys",
+        "icon": "toys.png"
+      },
+      {
+        "feature": "High chairs",
+        "icon": "high-chair.png"
+      },
+      {
+        "feature": "Wifi",
+        "icon": "wifi.png"
+      },
+      {
+        "feature": "Free parking on premises",
+        "icon": "park.png"
+      }, 
+      {
+        "feature": "Washer",
+        "icon": "washer.png"
+      },
+      {
+        "feature": "TV",
+        "icon": "tv.png"
+      }
+    ]
+  },  
+    {
+      "id":5, 
+    "images": ["tiny-house.webp", 
+    "tiny-house-4.webp", 
+    "tiny-house-2.webp",
+    "tiny-house-1.webp",
+    "tiny-house-3.webp"
+    ],
+    "name": "House Of Selfies",
+    "price": 175,
+    "type": "Modern House",
+    "beds": 5,
+    "bedRooms": 5,
+    "location": "Aalsmeerderbrug, Noord-Holland, Netherlands",
+    "stars": 4.6,
+    "favourite": false,
+    "features":[
+      {
+        "feature": "Wifi",
+          "icon": "wifi.png"
+      },
+      {
+        "feature": "Luggage dropoff allowed",
+        "icon": "luggage.png"
+      },
+      {
+        "feature": "Children’s books and toys",
+        "icon": "toys.png"
+      },
+      {
+        "feature": "High chairs",
+        "icon": "high-chair.png"
+      }
+    ]
+  },
+    {"id":6, 
+    "images": ["mountain-house.webp", 
+    "mountain-house-4.webp", 
+    "mountain-house-2.webp",
+    "mountain-house-3.webp",
+    "mountain-house-1.webp"
+    ],
+    "name": "SPACIOUS & SPACIOUS DUPLEX in the HEART of a SPA",
+    "price": 250,
+    "type": "Modern House",
+    "beds": 6,
+    "bedRooms": 6,
+    "location":"Samnaun, Graubünden, Switzerland",
+    "stars": 4.0,
+    "favourite": false,
+    "features":[
+      {
+        "feature": "Pack ’n play/Travel crib",
+        "icon": "crib.png"
+      },
+      {
+        "feature": "Private patio or balcony",
+        "icon": "balcony.png"
+      },
+      {
+        "feature": "Washer",
+        "icon": "washer.png"
+      },
+      {
+        "feature": "Luggage dropoff allowed",
+        "icon": "luggage.png"
+      }
+    ]
+  
+  },
+    {"id":7, 
+    "images": ["tree-house.webp", 
+    "tree-house-4.webp", 
+    "tree-house-2.webp",
+    "tree-house-3.webp",
+    "tree-house-1.webp"
+    ], 
+    "name": "CABANE CELESTE WITH INDOOR HOT TUB",
+    "price": 250,
+    "type": "Modern House",
+    "beds": 7,
+    "bedRooms": 7,
+    "location": "Vierzon, Centre-Val de Loire, France",
+    "stars": 4.4,
+    "favourite": false,
+    "features":[
+        {
+          "feature": "Washer",
+          "icon": "washer.png"
+        },
+        {
+          "feature": "Pets Allowed",
+          "icon": "pawprint.png"
+        },
+        {
+          "feature": "TV",
+          "icon": "tv.png"
+        }, 
+        {
+          "feature": "Security cameras",
+          "icon": "security-camera.png"
+        }
+
+    ]
+  
+  },
+    {"id":8, 
+    "images": ["modern-house.webp", 
+    "modern-house-4.webp", 
+    "modern-house-2.webp",
+    "modern-house-3.webp",
+    "modern-house-1.webp"
+    ],
+    "name": "It creates a space that ♪ children dream of.",
+    "price": 299,
+    "type": "Ancient House",
+    "location": "Nam-myeon, Taean-gun, South Chungcheong Province, South Korea",
+    "stars": 4.3,
+    "beds": 7,
+    "bedRooms": 7,
+    "favourite": false,
+    "features":[
+      {
+        "feature": "Children’s books and toys",
+        "icon": "toys.png"
+      },
+      {
+        "feature": "High chairs",
+        "icon": "high-chair.png"
+      },
+      {
+        "feature": "TV",
+        "icon": "tv.png"
+      },
+      {
+        "feature": "Free parking on premises",
+        "icon": "park.png"
+      }
+    ]
+  }
+  ]
+}

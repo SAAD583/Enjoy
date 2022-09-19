@@ -1,0 +1,66 @@
+.carouselsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 30px;
+}
+
+.outerCarouselContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favCarouselDetails {
+    margin-left: 10px;
+}
+
+.carouselContainerLoveIcon {
+    top: 5px;
+    right: 10px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: url("/heart (1).png") center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 2;
+    opacity: .5;
+}
+
+.carouselContainer {
+    width: 24%;
+    border-radius: 15px;
+    margin: 10px 0;
+    position: relative;  
+}
+
+.carouselContainer:hover {
+    cursor: pointer;
+}
+
+.carouselContainer div {
+    height: 250px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .carouselContainer {
+        width: 32%;
+    }
+    .favCarouselDetails {
+        margin-left: 0;
+        margin-top: -15px;
+    }
+    .outerCarouselContainer {
+        margin: 15px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .carouselContainer {
+        width: 100%;
+    }
+    .carouselsContainer {
+        padding: 0 10px;
+    }
+}
